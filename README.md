@@ -1,7 +1,7 @@
 # Telegram bot starter pack
 
 ## Quick start
-Add your bot token in `config/telegram.json` and run `npm start` and start chatting with your bot.
+Add your bot token in `config/telegram.json` and run `npm run start:dev` and start chatting with your bot.
 
 ## State
 Bot decides to do next action based on received command or any non-command message.
