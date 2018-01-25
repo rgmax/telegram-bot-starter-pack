@@ -1,0 +1,13 @@
+[
+  {
+    "config": {
+      "name": "",
+      "base": "",
+      "authHeaders": {
+        "authorization": ""
+      }
+    },
+    "endpoints": {
+    }
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "name": "telegram-bot-starter-pack",
+  "version": "1.0.0",
+  "description": "This is a template for telegram bot",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgmax/telegram-bot-starter-pack.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Reza Gholamzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgmax/telegram-bot-starter-pack/issues"
+  },
+  "homepage": "https://github.com/rgmax/telegram-bot-starter-pack#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4",
+    "node-telegram-bot-api": "^0.29.0",
+    "redis": "^2.8.0",
+    "request": "^2.83.0"
+  }
+}

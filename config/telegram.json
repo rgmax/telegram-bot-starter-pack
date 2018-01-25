@@ -1,0 +1,8 @@
+{
+  "botName": "your bot name",
+  "token": "",
+  "commands": [
+    "start"
+  ],
+  "defaultCommand": "start"
+}
