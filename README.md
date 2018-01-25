@@ -85,3 +85,8 @@ To integrate with multiple APIs, add new config object to the config array. For 
 ]
 
 ```
+
+## Allowed commands
+To enable bot users to call commands, allowed commands should be added to `config/telegram.json` file.
+By default only `start` command is added to the config. Also default command can be set to be handled if
+any issue causes cache to be deleted.
