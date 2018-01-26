@@ -20,6 +20,14 @@ const cache = {
         return true
       })
   },
+  addToState (id, data) {
+    return cache.getState(id)
+      .then(state => {
+        if(state)
+          data = _.merge(state, data)
+        return cache.setState(id, data)
+      })
+  },
   set(key ,data) {
     return new Promise((resolve, reject) => {
       redis.set(key, JSON.stringify(data), (err, reply) => {
